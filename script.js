@@ -6,7 +6,7 @@ async function buscarEMostrarVideos() {
         const videos = await busca.json()
     
         videos.forEach((video) => {
-            if (video.categoria = "") {
+            if (video.categoria == "") {
                 throw new Error('Vídeo sem categoria')
             }
             containerVideos.innerHTML += `
