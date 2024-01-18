@@ -1,5 +1,5 @@
 const containerVideos = document.querySelector('.videos__container')
-const buscarAPI = 'http://localhost:3000/videos'
+const buscarAPI = 'https://eucristiann.github.io/vidflow/backend/videos.json'
 
 async function buscarEMostrarVideos() {
     try {
